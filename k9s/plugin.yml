@@ -20,5 +20,7 @@ plugin:
       - $NAME
       - -n
       - $NAMESPACE
+      - --context
+      - $CONTEXT
       - --
       - bash

@@ -1,6 +1,6 @@
-# $XDG_CONFIG_HOME/k9s/plugin.yml
-plugin:
-  fred:
+# $XDG_CONFIG_HOME/k9s/plugins.yml
+plugins:
+  debug-container:
     # Define a mnemonic to invoke the plugin
     shortCut: Shift-D
     # What will be shown on the K9s menu

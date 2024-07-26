@@ -1,4 +1,4 @@
-# $XDG_CONFIG_HOME/k9s/plugins.yml
+# $XDG_CONFIG_HOME/k9s/plugins.yaml
 plugins:
   debug-container:
     # Define a mnemonic to invoke the plugin

@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt update && apt install -y curl wget iputils-ping net-tools inetutils-traceroute postgresql-client redis-cli && apt clean && rm -rf /var/lib/apt/lists/*
+RUN apt update && apt install -y curl wget iputils-ping net-tools inetutils-traceroute postgresql-client redis-tools && apt clean && rm -rf /var/lib/apt/lists/*
 
 RUN wget https://github.com/aquaproj/aqua/releases/download/v2.21.0/aqua_linux_amd64.tar.gz && \
     tar -xvf aqua_linux_amd64.tar.gz && \

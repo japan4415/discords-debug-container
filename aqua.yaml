@@ -10,7 +10,7 @@ registries:
     ref: v4.105.0 # renovate: depName=aquaproj/aqua-registry
 packages:
   - name: fujiapple852/trippy@0.9.0
-  - name: sharkdp/bat@v0.24.0
+  - name: sharkdp/bat@v0.25.0
   - name: dandavison/delta@0.16.5
   - name: sharkdp/fd@v8.7.1
   - name: BurntSushi/ripgrep@14.1.1

@@ -13,5 +13,5 @@ packages:
   - name: sharkdp/bat@v0.24.0
   - name: dandavison/delta@0.16.5
   - name: sharkdp/fd@v8.7.1
-  - name: BurntSushi/ripgrep@14.0.3
+  - name: BurntSushi/ripgrep@14.1.1
   - name: ogham/exa@v0.10.1

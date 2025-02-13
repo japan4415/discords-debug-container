@@ -10,6 +10,11 @@
 - delta
 - exa
 - fd
+- net-tools
+- redis-tools
+- traceroute
 - trippy
+- ping
+- postgresql
 - ripgrep
 - wget

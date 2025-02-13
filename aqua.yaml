@@ -11,7 +11,7 @@ registries:
 packages:
   - name: fujiapple852/trippy@0.12.2
   - name: sharkdp/bat@v0.25.0
-  - name: dandavison/delta@0.16.5
+  - name: dandavison/delta@0.18.2
   - name: sharkdp/fd@v10.2.0
   - name: BurntSushi/ripgrep@14.1.1
   - name: ogham/exa@v0.10.1

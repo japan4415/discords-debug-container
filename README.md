@@ -7,5 +7,9 @@
 ## what's included
 - bat
 - curl
+- delta
+- exa
+- fd
 - trippy
+- ripgrep
 - wget

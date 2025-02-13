@@ -3,5 +3,12 @@
   "extends": [
     "config:recommended",
     "github>aquaproj/aqua-renovate-config#2.2.1"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": "!/^0/",,
+      "automerge": true
+    }
   ]
 }

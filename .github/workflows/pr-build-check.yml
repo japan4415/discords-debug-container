@@ -1,0 +1,21 @@
+name: PR build check
+
+on:
+  pull_request:
+    paths:
+      - 'Dockerfile'
+      - 'aqua.yaml'
+
+jobs:
+  build-check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+      - name: Build Docker image
+        uses: docker/build-push-action@ca877d9245402d1537745e0e356eab47c3520991
+        with:
+          context: .
+          push: false

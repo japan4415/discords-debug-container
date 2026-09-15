@@ -15,5 +15,5 @@ packages:
   - name: sharkdp/fd@v10.4.2
   - name: BurntSushi/ripgrep@15.2.0
   - name: ogham/exa@v0.10.1
-  - name: kubernetes/kubectl@v1.32.1
+  - name: kubernetes/kubectl@v1.37.0
   - name: derailed/k9s@v0.51.0
